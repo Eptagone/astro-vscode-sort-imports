@@ -1,5 +1,9 @@
 ---
+//* Server imports
+// import { helloServer, pooServer } from "../server";
+import { helloServer } from "../server";
 
+helloServer();
 ---
 
 <html lang="en">
@@ -15,3 +19,11 @@
 		<h1>Astro</h1>
 	</body>
 </html>
+
+<script>
+	//* Client imports
+	// import { helloClient, pooClient } from "../client";
+	import { helloClient } from "../client";
+
+	helloClient();
+</script>
